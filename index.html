@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <!-- navbar-->
+    <div class="navigation">
+      <ul class="menu-box">
+        <a onclick="window.location.reload()" class="logo">Intro.</a>
+        <li class="menu-item">
+          <a href="#home" class="menu-link">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <span class="content">HOME</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#profile" class="menu-link">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <span class="content">PROFILE</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#favorite" class="menu-link">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <span class="content">FAVOIRTES</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#contact" class="menu-link">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span class="content">CONTACT</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 섹션 -->
+    <div class="wrap">
+      <div class="home scroll" id="home">
+        <div class="text-box">
+          <div>
+            <div class="text">Who Am I?</div>
+            <div class="second-text">Who Am I?</div>
+          </div>
+          <p>저에 대해 더 알고 싶다면?<a href="#profile">더보기</a></p>
+        </div>
+        <div class="man"></div>
+        <div class="land"></div>
+        <div class="left-rope"></div>
+        <div class="right-rope"></div>
+      </div>
+
+      <div class="profile scroll" id="profile">
+        <div class="profile-img-box">
+          <div class="profile-img">
+            <div class="image">
+              <img src="profile1.jpg" alt="프로필 사진" />
+            </div>
+          </div>
+        </div>
+        <div class="profile-content">
+          <h1>저는 이인재입니다.</h1>
+          <h3>프론트엔드 개발자</h3>
+          <p style="padding-bottom: 10px;"><b>"개발자도 User이다"</b></p>
+          <p>
+            개발자는 단순히 언어를 공부하며 개발하는 직업이 아니라고 생각합니다.
+            개발자도 역시 사용자이기에 언제나 사용자의 관점에서 바라봐야 합니다.
+            사용자의 관점에서 편리한 것들을 구현하기 위해 꾸준히 노력하겠습니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="favorite scroll" id="favorite">
+        <div class="favorite-img-box">
+          <img src="exhibition.jpg" alt="" />
+          <div class="favorite-img">
+            <h1>Exhibition</h1>
+            <p>전시회를 가서 새롭고 신기한 전시물들을 보는 것을 즐깁니다.</p>
+          </div>
+        </div>
+        <div>
+          <div class="favorite-img-box">
+            <img src="bike.jpg" alt="" />
+            <div class="favorite-img">
+              <h1>Cycling</h1>
+              <p>자전거를 타며 바람을 맞으며 환기하는 것을 즐깁니다.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="favorite-img-box">
+            <img src="meat.jpg" alt="" />
+            <div class="favorite-img">
+              <h1>Meat Lover</h1>
+              <p>고기를 사랑하는 사람 중 하나입니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact scroll" id="contact">
+        <div class="contact-img-container">
+          <div class="link-box">
+            <a target="_blank" href="https://github.com/llinjae"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="mailto:dldlswo23@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+          <div class="contact-img-box">
+            <div class="github-man"></div>
+            <div class="up-stair"></div>
+            <div class="down-stair"></div>
+            <div class="github-man2"></div>
+          </div>
+          <div class="contact-land"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
